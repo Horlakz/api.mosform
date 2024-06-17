@@ -1,0 +1,11 @@
+- users and authentication
+  fullname, email, password
+- create form 
+  form model
+   - title, description, user(foreign key)
+  questions model
+  - name, form(foreign key)
+  response model
+  - form(foreign key) 
+  answers model
+  - response(foreign key), question(foreignkey), answer
